@@ -32,7 +32,8 @@ Pod::Spec.new do |s|
 
   s.source_files = 'PlayOnSdk/Classes/**/*'
   s.ios.vendored_frameworks = 'PlayOnSDK.xcframework' # Your XCFramework
-
+  s.ios.preserve_paths = 'PlayOnSDK.xcframework'
+  
   # s.resource_bundles = {
   #   'PlayOnSdk' => ['PlayOnSdk/Assets/*.png']
   # }
