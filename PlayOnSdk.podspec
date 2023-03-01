@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint PlayOnSdk.podspec' to ensure this is a
+# Be sure to run `pod lib lint AnyAnyOnSdk.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'PlayOnSdk'
+  s.name             = 'AnyAnyOnSdk'
   s.version          = '0.0.1'
-  s.summary          = 'A short description of PlayOnSdk.'
+  s.summary          = 'A short description of AnyAnyOnSdk.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = 'A long description of PlayOnSdk.'
+  s.description      = 'A long description of AnyAnyOnSdk.'
 
 
   s.homepage         = 'https://github.com/evgenios12/tmpXcframeworkPod'
@@ -30,10 +30,10 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   s.ios.deployment_target = '10.0'
 
-  s.ios.vendored_frameworks = 'PlayOnSDK.xcframework' # Your XCFramework
+  s.ios.vendored_frameworks = 'PlayOnSdk.xcframework' # Your XCFramework
   
   # s.resource_bundles = {
-  #   'PlayOnSdk' => ['PlayOnSdk/Assets/*.png']
+  #   'AnyAnyOnSdk' => ['AnyAnyOnSdk/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
