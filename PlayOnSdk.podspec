@@ -30,7 +30,6 @@ Pod::Spec.new do |s|
   s.platform          = :ios
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'PlayOnSdk/Classes/**/*'
   s.ios.vendored_frameworks = 'PlayOnSDK.xcframework' # Your XCFramework
   
   # s.resource_bundles = {
